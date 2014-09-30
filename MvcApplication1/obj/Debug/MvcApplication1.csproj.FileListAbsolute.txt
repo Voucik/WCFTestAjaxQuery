@@ -1,0 +1,7 @@
+D:\prj\WCFTestAjaxQuery\MvcApplication1\bin\MvcApplication1.dll
+D:\prj\WCFTestAjaxQuery\MvcApplication1\bin\MvcApplication1.pdb
+D:\prj\WCFTestAjaxQuery\MvcApplication1\bin\EntityFramework.dll
+D:\prj\WCFTestAjaxQuery\MvcApplication1\bin\EntityFramework.xml
+D:\prj\WCFTestAjaxQuery\MvcApplication1\obj\Debug\MvcApplication1.csprojResolveAssemblyReference.cache
+D:\prj\WCFTestAjaxQuery\MvcApplication1\obj\Debug\MvcApplication1.dll
+D:\prj\WCFTestAjaxQuery\MvcApplication1\obj\Debug\MvcApplication1.pdb

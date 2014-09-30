@@ -1,0 +1,4 @@
+D:\prj\WCFTestAjaxQuery\WcfServiceHost\bin\WcfServiceHost.dll
+D:\prj\WCFTestAjaxQuery\WcfServiceHost\bin\WcfServiceHost.pdb
+D:\prj\WCFTestAjaxQuery\WcfServiceHost\obj\Debug\WcfServiceHost.dll
+D:\prj\WCFTestAjaxQuery\WcfServiceHost\obj\Debug\WcfServiceHost.pdb
