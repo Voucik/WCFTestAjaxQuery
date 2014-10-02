@@ -39,17 +39,21 @@
 
     //Send Data
     function SendData() {
-        $.support.cors = true;
         var Json = { 'id': $("#id").val(), 'name': $("#name").val() };
         $.ajax({
-            type: "Post",
             url: "http://localhost:10468/Service1.svc/AddTestData",
-            data: JSON.stringify(Json), 
-            contentType: "application/json;charset-uf8", 
-            dataType: "json", 
-            success: function (msg) {
-            },
-            error: function (err) {
+            data: JSON.stringify(Json),
+            type: "POST",
+            processData: false,
+            async: false,
+            contentType: "application/json",
+            dataType: "text",
+            success:
+                    function (response) {
+
+                    },
+            error: function (er) {
+
             }
         });
     }

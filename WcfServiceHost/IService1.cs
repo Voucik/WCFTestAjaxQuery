@@ -8,11 +8,11 @@ namespace WcfServiceHost
     public interface IService1
     {
         [OperationContract()]
-        [WebInvoke(Method = "GET", UriTemplate = "/GetTestData", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
+        [WebInvoke(Method = "GET", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
         List<Data.Test> GetTestData();
 
         [OperationContract]
-        [WebInvoke(Method = "POST", ResponseFormat = WebMessageFormat.Json, RequestFormat = WebMessageFormat.Json)]
+        [WebInvoke(Method = "POST")]
         void AddTestData(Data.Test value);
     }
 }
